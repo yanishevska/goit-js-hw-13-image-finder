@@ -1,6 +1,9 @@
 :root {
   --background-button: rgba(184, 21, 67, 0.85);
-  --shadow: 6px 5px 14px #0a0a1f;
+  --shadow: 0 1.8px 0.2px rgb(0 0 0 / 57%), 0 5.7px 13.3px rgb(255 255 255 / 88%),
+    0 -12.5px 14px rgb(0 0 0 / 39%), 0 3.3px 33.9px rgb(0 0 0 / 21%),
+    0 57.8px 38.4px rgb(0 0 0 / 41%), 0 100px 49px rgb(0 0 1 / 36%);
+  --shadow-button: 3px 2px 8px rgb(169 169 185);
   --button-color: rgb(234, 229, 243);
 }
 

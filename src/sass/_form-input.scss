@@ -16,8 +16,7 @@
   border: 2px solid rgb(228, 215, 215);
   border-width: 1px;
   border-radius: 4px;
-
-  box-shadow: var(--shadow);
+  box-shadow: var(--shadow-button);
 }
 
 .input::placeholder {
