@@ -1,0 +1,25 @@
+.search-form {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.input {
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  border-style: solid;
+  background-color: var(--background-button);
+  color: var(--button-color);
+  padding: 10px;
+  width: 280px;
+  border: 2px solid rgb(228, 215, 215);
+  border-width: 1px;
+  border-radius: 4px;
+
+  box-shadow: var(--shadow);
+}
+
+.input::placeholder {
+  color: var(--button-color);
+}

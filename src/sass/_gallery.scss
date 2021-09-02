@@ -1,0 +1,38 @@
+.gallery {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 0;
+  list-style: none;
+  align-items: center;
+}
+
+.photo-card {
+  margin-bottom: 60px;
+}
+
+.pictures {
+  display: block;
+  width: 350px;
+  height: 260px;
+  box-shadow: var(--shadow);
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 10px;
+  padding-top: 10px;
+}
+
+.stats-item {
+  padding-left: 2px;
+  color: white;
+}
+
+.material-icons {
+  color: white;
+}

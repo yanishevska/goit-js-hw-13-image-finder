@@ -1,0 +1,38 @@
+.button-up {
+  display: block;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  border: 2px solid rgb(228, 215, 215);
+  border-width: 1px;
+  border-radius: 10px;
+  background-color: var(--background-button);
+  outline: none;
+  position: fixed;
+  bottom: 20px;
+  right: 25px;
+  fill: var(--button-color);
+  box-shadow: var(--shadow);
+}
+
+.btn-load {
+  display: block;
+  border: none;
+  margin-left: 10px;
+  margin-bottom: 40px;
+  border-radius: 4px;
+  width: 140px;
+  height: 40px;
+  padding: 0px;
+  background-color: var(--background-button);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.2;
+  text-align: center;
+  color: var(--button-color);
+  box-shadow: var(--shadow);
+}
+
+.showBtn {
+  display: none;
+}
